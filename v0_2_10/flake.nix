@@ -9,8 +9,8 @@
   
   inputs.src-variant-v0_2_10.flake = false;
   inputs.src-variant-v0_2_10.owner = "yglukhov";
-  inputs.src-variant-v0_2_10.ref   = "refs/tags/v0.2.10";
-  inputs.src-variant-v0_2_10.repo  = "variant";
+  inputs.src-variant-v0_2_10.ref   = "v0_2_10";
+  inputs.src-variant-v0_2_10.repo  = "variant.git";
   inputs.src-variant-v0_2_10.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
